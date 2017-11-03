@@ -30,30 +30,44 @@ body {
   font-size: 40px;
   font-weight: bold;
   font-family: 'Merriweather', serif;
-  border: none;
+  border-color: lightgray;
+  border-width: 1px;
+  padding: 7px;
 
 }
+
+
+::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+
 
 #post {
   opacity: 0.4;
   font-size: 30px;
   font-family: Merriweather'', serif;
-  border: none;
+  border-color: lightgray;
+  border-width: 1px;
+  padding: 7px;
 }
 
 #main {
-
   background: -webkit-linear-gradient(orange,yellow)
 }
 
 #submit {
-  height: 50px;
-  width: 100px;
+  height: 70px;
+  width: 150px;
   border-radius: 15px;
-
+  background-color: orange;
+  font-size: 20px;
+  color: gray;
+  border: none;
 }
 
 #invalid {
   color: red;
   font-size: 20px;
 }
+

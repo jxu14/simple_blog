@@ -18,11 +18,13 @@ button.addEventListener("click", function() {
   if (post.value.replace(/^\s*/, "").replace(/\s*$/, "") != "") {
     section.append(newPost);
     section.append(deleteButton);
+    // invalid.innerHTML = "";
   } else {
     var invalid = document.getElementById("invalid");
-    invalid.innerHTML = "Please Type Something in the Text Fields";
+    invalid.innerHTML = "Please Type Something in your post";
   }
 
   title.value = "";
   post.value = "";
+
 })
