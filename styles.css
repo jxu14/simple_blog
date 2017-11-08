@@ -36,6 +36,10 @@ body {
 
 }
 
+h1 {
+  font-size: 65px;
+}
+
 
 ::-webkit-input-placeholder {
   color: lightgray;
@@ -71,3 +75,56 @@ body {
   font-size: 20px;
 }
 
+.tab2 {
+  background-color: pink;
+}
+
+.tab3 {
+  background-color: lightblue;
+}
+
+button.blog {
+  background-color: orange;
+}
+.selected {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+button:hover {
+  background-color: white;
+  color: red;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+p:hover {
+  color: white;
+}
+
+p {
+  padding: 20px;
+}
+
+#submit:hover {
+  background-color: white;
+  border-width: 2px;
+  border: solid;
+  color: orange;
+}

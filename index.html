@@ -6,16 +6,39 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 <body>
-  <h1 id="header"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/483px-Blogger.svg.png" id="headerimage"></h1>
+  <nav>
+    <button class="blog">Blog</button>
+    <button class="tab2">Tab2</button>
+    <button class="tab3">Tab3</button>
+  </nav>
   <br>
-  <input type="text" id="title" placeholder="type title here" size="50" class="placeholder">
-  <br>
-  <textarea rows="10" cols="150" id="post" placeholder="Type Your Post Here" class="placeholder"></textarea>
-  <br><br>
-  <button id="submit">Create Blog Post</button>
-  <p id="invalid"></p>
-  <section id="main">
+  <section class="blog tabs">
+    <h1 id="header"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/483px-Blogger.svg.png" id="headerimage"></h1>
+    <br>
+    <input type="text" id="title" placeholder="type title here" size="50" class="placeholder">
+    <br>
+    <textarea rows="10" cols="150" id="post" placeholder="Type Your Post Here" class="placeholder"></textarea>
+    <br><br>
+    <button id="submit">Create Blog Post</button>
+    <p id="invalid"></p>
+    <section id="main">
+    </section>
   </section>
-
+  <section class="tab2 tabs hidden">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+  <section class="tab3 tabs hidden">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
   <script type="text/javascript" src="script.js"></script>
 </html>
